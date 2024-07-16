@@ -1,0 +1,105 @@
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+
+    /* height: 36px;
+    width: 105px;  */
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px; */
+
+    /* Using padding is a better alternatice to height and width. It helps in resizing the element when the content of the element also changes. */
+
+    padding: 10px 16px 10px 16px; 
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right:8px;
+    margin-left: 20px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+
+  .join-button {
+    background-color: #ffffff;
+
+    /*
+
+      border-color: rgb(41, 118, 211);
+      border-style: solid;
+      border-width: 1px;
+
+      Instead of writing the above 3 properties in one line, we can write it in shorthand like this:
+      
+      Syntax: border: [border-width] [border-style] [border-color];
+
+      border: 1px solid rgb(41, 118, 211);
+    
+    */
+
+    border: 1px solid rgb(41, 118, 211);
+    color: rgb(41, 118, 211);
+
+    /* height: 36px;
+    width: 62px;
+    - It is not a good practice to use height and width, because if we added the elemment's values inside, the element will overflow because we force the element to be only on that dimension. Therefore, it is good to rather use padding for inner element spacing.
+    */
+    padding: 9px 16px 9px 16px; 
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+                color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 74px; */
+    padding: 9px 16px 9px 16px; 
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+  
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+</style>
+
+<button class = "subscribe-button"> 
+  SUBSCRIBE 
+</button>
+
+<button class = "join-button"> 
+  JOIN
+</button>
+
+<button class = "tweet-button">
+  Tweet
+</button>
