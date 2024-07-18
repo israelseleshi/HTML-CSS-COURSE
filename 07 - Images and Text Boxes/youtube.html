@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+  - Now we are starting to build the project.
+  - But before starting, we need to learn two more HTML elements:
+    - How to load images onto our website.
+    - How to create a search box.
+-->
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+    <style>
+      .thumbnail {
+        width: 300px; 
+        /* - When we set the width, the height will also adjust so that the image has the same dimensions. */
+        /* height: 600px; When adjusting the height, an image loses its shape. */
+        /* height: 300px;
+        object-fit: contain;
+        border: solid 2px red;
+        object-position: bottom; */
+      }
+
+      .search-bar {
+        font-size: 20px;
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class = 'thumbnail' src = "thumbnails/thumbnail-1.webp">
+    <input class = "search-bar" type = "text" placeholder="Search"> 
+    <!-- the value of the type attribute can also be checkbox -->
+  </body>
+</html>
