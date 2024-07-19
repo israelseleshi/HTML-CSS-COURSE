@@ -1,0 +1,21 @@
+.container {
+  background-color: rgb(33, 33, 33);
+  width: 350px;
+  padding: 20px 15px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  color: white;
+  font: bold 24px Arial;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: rgb(160, 160, 160)
+}
