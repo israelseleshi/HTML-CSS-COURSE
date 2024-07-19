@@ -1,0 +1,62 @@
+
+.container {
+  width: 400px;
+  display: inline-block;
+}
+
+.image-section {
+  /* width: 120px; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description-section {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.name {
+  font: bold 16px Roboto;
+  margin-bottom: 4px;
+}
+
+.the-what,
+.status {
+  font-size: 14px;
+  color: gray;
+}
+
+.button-section {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.follow-button {
+  background-color: rgb(42, 164, 255);
+  color: white;
+  border: none;
+  font: bold 14px Arial;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
