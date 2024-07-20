@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 1px black;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.items {
+  background-color: lightpink;
+}

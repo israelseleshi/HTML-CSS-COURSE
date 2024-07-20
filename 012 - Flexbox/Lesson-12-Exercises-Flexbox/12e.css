@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  /* height: 100px; */
+  justify-content: space-between;
+  padding: 10px 17px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  border: none;
+  font: bold 14px Arial;
+  border-radius: 8px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
