@@ -1,0 +1,54 @@
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-family: Arial;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 15px;
+}
+
+.top-section {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.profile-section {
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.title-and-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font: bold 16px Arial;
+}
+
+.time {
+  font-size: 13px;
+  color: rgb(120, 120, 120);
+}
+
+.email-text {
+  color: gray;
+}
