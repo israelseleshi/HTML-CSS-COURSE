@@ -1,0 +1,25 @@
+body {
+  height: 3000px;
+}
+
+.container {
+  position: relative;
+}
+
+.close-sign {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 14px;
+  font-family: Roboto;
+  right: 0;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.close-sign:hover {
+  transform:scale(1.5);
+  margin-top: 10px;
+  margin-right: 10px;
+}
